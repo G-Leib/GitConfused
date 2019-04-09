@@ -154,7 +154,7 @@ class PoolTranslate:
     def dynamic(self):                      #17
         print("Dynamic    4 bytes")
 
-    def invoke_dynamic(self,  new_li, self.super_index):               #18
+    def invoke_dynamic(self,  new_li, super_index):               #18
         print("Invoke Dynamic    4 bytes")
 
     def module(self):                       #19
