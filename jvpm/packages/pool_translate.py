@@ -13,7 +13,7 @@ class PoolTranslate:
 
     def __init__(self, name = ""):
         self.dictionary = defaultdict(list)
-        self.name = "jvpm/javafiles/AddTwo.class"
+        self.name = "jvpm/javafiles/HelloWorld.class"
         # self.name = name
 
         H = jvpm_opcodes.HeaderClass(self.name)
