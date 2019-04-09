@@ -110,7 +110,8 @@ class PoolTranslate:
             methodrefs.append(method)
             index += 1
             if count < 1:
-                method = method + "."
+                # method = method + "."
+                method = "."
             count += 1
             C  += method
         new_l[self.super_index - 1] = C
