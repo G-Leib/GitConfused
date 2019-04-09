@@ -203,7 +203,7 @@ class PoolTranslate:
             index = int(self.main_index)-1  # dont think this is doing anything
 
         key_list = list(d.keys())
-        key_current = key_list[int(self.main_index)]
+        key_current = key_list[int(self.main_index) - 1]
         list_current = d[key_current]
         tag_byte = list_current[0]
         list_len = len(list_current)
