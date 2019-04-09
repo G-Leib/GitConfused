@@ -83,7 +83,7 @@ class PoolTranslate:
     def string_reference(self,  new_li, super_index):
         """string reference""" #8
         # print("String Reference    2 bytes")
-        cp_strings.append(dtext)
+        # cp_strings.append(dtext)
 
     def field_reference(self,  new_li, super_index):
         """field reference""" #9
