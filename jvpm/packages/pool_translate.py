@@ -13,10 +13,10 @@ class PoolTranslate:
 
     def __init__(self, name = ""):
         self.dictionary = defaultdict(list)
-        #self.name = "jvpm/javafiles/AddTwo.class"
-        self.name = name
+        self.name = "jvpm/javafiles/AddTwo.class"
+        # self.name = name
 
-        H = jvpm_opcodes.HeaderClass(name)
+        H = jvpm_opcodes.HeaderClass(self.name)
         # H = jvpm_opcodes.HeaderClass(name = "jvpm/javafiles/AddTwo.class")
         # H = jvpm_opcodes.HeaderClass(name = input("What file do you want to open? "))
         self.dictionary = H.get_const_pool()
