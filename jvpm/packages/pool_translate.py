@@ -223,7 +223,6 @@ class PoolTranslate:
         print("\nFile opened: " + self.name)
         header_class = jvpm_opcodes.HeaderClass()
         translate = PoolTranslate(self.name)
-        # translate = PoolTranslate("jvpm/javafiles/AddWorld.class")
         count = 1
         self.main_index = 1
         while count <= self.byte_list_count :
