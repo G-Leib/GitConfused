@@ -47,7 +47,7 @@ if '__main__' == __name__:                  #pragma: no cover
     print('\n___Print Hello World!:___')
     print()
     print("🎵🎶 Hello... Is it me your looking for? 🎶🎵")
-    webbrowser.open('https://www.youtube.com/watch?v=62XB9IbMnxQ')
+    # webbrowser.open('https://www.youtube.com/watch?v=62XB9IbMnxQ')
     # print(packages.jvpm_opcodes.OpCodes.get_opcode_bytes())
     print()
     print("_________________________") 
